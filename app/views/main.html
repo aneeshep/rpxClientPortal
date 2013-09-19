@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<html class="no-js ie9" lang="en"> <![endif]-->
+<head>
+  <meta charset="utf-8"/>
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NPE Profiles | RPX</title>
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico?v2"/>
+  
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+  <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+
+  <script type="text/javascript">
+  //google
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34657734-1']);
+  _gaq.push(['_setCustomVar', 1, 'RPX Client Portal ID', '2385']);
+  _gaq.push(['_setCustomVar', 2, 'Company Name', 'RPX Corporation']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Jakd8mUQAEGOx/ojCPhAgw6TuqJf0RhHcqQBP74ZWmw=" name="csrf-token" />
+  
+</head>
+<body class="npe_summary-page npe_summary-show">
+<div id="info"><!-- for alerts --></div>
+
+<script type="text/javascript">
+  var auth_token = "Jakd8mUQAEGOx/ojCPhAgw6TuqJf0RhHcqQBP74ZWmw=";
+</script>
+
+
+<div id="wrap">
+  <!-- NAVIGATION -->
+<div class="title band">
+  <div class="row">
+    <div class="user-info">
+      <div id="header_tools">
+            Viewing as: <a href="/user/edit">RPX Corporation</a> |
+          <div class="button dropdown">
+            Suresh R
+            <ul>
+              <li><a href="/user/edit">My Preferences</a></li>
+                <li><a href="/clients/my-rpx-contact">My RPX Contact</a>
+              <li><a href="/users/sign_out" data-method="delete" rel="nofollow">Log Out</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    <div class="rpx_logo">
+      <a href="/"><img class="logo" src="images/global/logo-portal.png" alt="RPX Client Portal"/></a>
+    </div>
+  </div>
+  <!-- /row -->
+</div><!-- /band -->
+  <div id="top_nav_holder">
+    <div class="nav band" id="top_nav">
+      <div class="row">
+        <div class="search">
+          <form action="/search-results" id="header_search_form" method="get">
+            <a class="postfix alert button submit_button" href="#"><span style="margin: 0 8px"><i>s</i></span></a>
+            <input type="text" id="search_input" name="searchq" placeholder="RPX Site Search" class="search_input string required ui-autocomplete-input"   autocomplete="off">
+          </form>
+        </div>
+        
+        <div class="nav_holder">
+          <ul>
+              <li>
+                <a href="/" class=""  ng-mouseover=" activeNav = 'dashboard'">Dashboard</a>
+              </li>
+              <li>
+                <a href="/litigations/search?my_cases=true" class=""  ng-mouseover=" activeNav = 'my_portal'">My Portal</a>
+              </li>
+              <li>
+                <a href="/litigations" class="active" ng-mouseover=" activeNav = 'intelligence'" >Intelligence</a>
+              </li>
+              <li>
+                <a href="/portfolios" class="" ng-mouseover=" activeNav = 'portfolios'" >&nbsp;&nbsp;Portfolio&nbsp;&nbsp;&nbsp;</a>
+              </li>
+              <li>
+                <a href="/advanced_search" class=""  ng-mouseover=" activeNav = 'advanced_search'">Advanced Search</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /band -->
+    <!-- .SUBNAV.BAND -->
+    <div class="subnav band" id="">
+      <div class="row">
+        <div class="twelve ie-two columns">
+            <ul class="subnav portfolios" ng-show="activeNav == 'portfolios'">
+                <li><a class="" href="/portfolios">RPX Portfolio</a></li>
+                <li><a class="" href="/portfolio/rpx-patents">RPX Patents</a></li>
+            </ul>
+            <ul class="subnav my_portal" ng-show="activeNav == 'my_portal'">
+                <li><a class="" href="/litigations/search?my_cases=true">My Cases</a></li>
+                <li><a class="" href="/entities/rpx-corporation?include=subsidiaries">My Profile</a></li>
+                <li><a class="" href="/alerts">My Alerts</a></li>
+                <li><a class="" href="/assertions">My Assertions<span class="radius orange label">New!</span></a></li>
+                <li><a class="" href="/my_reports">My Reports</a></li>
+                <li><a class="" href="/clients">Client List</a></li>
+            </ul>
+            <ul class="subnav intelligence" ng-show="activeNav == 'intelligence'">
+                <li><a class="" href="/litigations">Litigation Overview</a></li>
+                <li><a class="" href="/litigations/search">Litigation Search</a></li>
+                <li><a class="" href="/marketplace/acquisition-opportunities">Marketplace</a></li>
+                <li><a class="active" href="/intelligence/npe_profiles">NPE Profiles</a></li>
+                <li><a class="" href="/news/details">News</a></li>
+                <li><a class="" href="/rpx_reports">RPX Reports</a></li>
+            </ul>
+        </div>
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- .SUBNAV.BAND -->
+  </div>
+
+
+
+  <div id="content">
+    <div class="row">
+      <!--[if lt IE 7]><div class="panel radius">
+  <h5><i>!</i></h5>
+  <p>We are sorry but in order to improve the user experience on the Client Portal and provide you with new features and tools, we no longer support Internet Explorer 7. Please upgrade to one of our supported browsers:</p>
+  <ul>
+    <li><a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a> (Recommended)</li>
+    <li><a href="http://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a> (Recommended)</li>
+    <li>Safari (Recommended) <a href="http://support.apple.com/downloads/#safari">Mac</a>
+    </li>
+    <li>Internet Explorer 9 (Recommended) <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">Windows</a>
+    </li>
+    <li>Internet Explorer 8 <a href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-8">Windows</a>
+    </li>
+  </ul>
+</div>
+<![endif]-->
+      <!--[if IE 7]><div class="panel radius">
+  <h5><i>!</i></h5>
+  <p>We are sorry but in order to improve the user experience on the Client Portal and provide you with new features and tools, we no longer support Internet Explorer 7. Please upgrade to one of our supported browsers:</p>
+  <ul>
+    <li><a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a> (Recommended)</li>
+    <li><a href="http://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a> (Recommended)</li>
+    <li>Safari (Recommended) <a href="http://support.apple.com/downloads/#safari">Mac</a>
+    </li>
+    <li>Internet Explorer 9 (Recommended) <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">Windows</a>
+    </li>
+    <li>Internet Explorer 8 <a href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-8">Windows</a>
+    </li>
+  </ul>
+</div>
+<![endif]-->
+  
+
+<div class="twelve columns">
+  <h1>NPE Profiles</h1>
+</div>
+
+<div class="eight columns">
+<div class="dataTables_paginate paging_will_paginate" ng-show="totalPages" id="npe_table_paginate">
+  <span class="npe_table_previous "  ng-click="prevPage()" ng-class="{ paginate_button_disabled: (currentPage <= 1) }">«&nbsp;Previous</span>
+  <span class="npe_table_start" style="display: none;"></span>
+  <span class="npe_table_linkList">
+
+    <span ng-show="currentPage > 1" ng-click ="getPage(currentPage -1 )">{{ currentPage -1  }}</span>
+    <span class="paginate_active" ng-click ="getPage(currentPage)">{{ currentPage }}</span>
+    <span ng-click ="getPage(currentPage + 1 )">{{ currentPage + 1 }}</span>
+
+
+  </span>
+  <span class="npe_table_end" style="display: none;"></span>
+  <span ng-click="nextPage()" class="npe_table_next paginate_button">Next&nbsp;»</span>
+</div>
+
+  <table id="npe_table" ng-init="getProfiles()">
+    <thead>
+    <tr>
+      <th ng-click="changeSortField('name')" ng-class="{sorting_asc: (sortField == 'name' && reverse ==false), sorting_desc: (sortField == 'name' && reverse == true)}">Name</th>
+      <th ng-click="changeSortField('market_sector')"  ng-class="{sorting_asc: (sortField == 'market_sector' && reverse ==false), sorting_desc: (sortField == 'market_sector' && reverse == true)}">Primary Market Sectors</th>
+      <th ng-click="changeSortField('active_lit_count')"  ng-class="{sorting_asc: (sortField == 'active_lit_count' && reverse ==false), sorting_desc: (sortField == 'active_lit_count' && reverse == true)}">Active Plaintiff Litigations</th>
+      <th ng-click="changeSortField('lit_count')"  ng-class="{sorting_asc: (sortField == 'lit_count' && reverse ==false), sorting_desc: (sortField == 'lit_count' && reverse == true)}">Total Plaintiff Litigations</th>
+    </tr>
+    </thead>
+    <tbody>
+      <!-- <tr>
+        <td><a href="/entities/65877">Ronald A Katz Technology Licensing Lp</a></td>
+        <td>Automotive, Consumer Electronics and PCs, E-Commerce and Software, Energy, Financial Services, Industrial, Media Content and Distribution, Medical, Mobile Communications and Devices, Networking</td>
+        <td>11</td>
+        <td>115</td>
+      </tr> -->
+      <!-- <tr ng-repeat="profile in profiles">
+        <td>sjdf</td>
+      </tr> -->
+      <tr ng-show ="profiles.length == 0 "> <td> Loading Data...</td></tr>
+      <tr ng-repeat="profile in profiles | filter : search | orderBy:sortField:reverse" >
+        <td><a href="{{ profile.slug_url }}"> {{ profile.name }}</a></td>
+        <td> {{ tst = profile.market_sector.join(',');  }}</td>
+        <td> {{ profile.active_lit_count }}</td>
+        <td> {{ profile.lit_count }}</td>
+
+      </tr>
+      
+    </tbody>
+  </table>
+  <div class="bottom" ng-show="totalProfiles"><div class="dataTables_info" id="npe_table_info">Showing {{ paginateStart }} to {{paginateEnd}} of {{ totalProfiles }}</div></div>
+</div>
+<div class="four columns" id="sidebar">
+  <div class="search-options panel">
+    <div class="top">
+      <h4><span class="yellow icon">s</span>Search Options</h4>
+    </div>
+    <div id="search_holder" class="row">
+      <div class="ie_only">Search</div>
+      <div class="search_input">
+        <div id="npe_table_filter" class="dataTables_filter">
+          <input type="text" placeholder="Search" ng-model = "search">
+        </div>
+      </div>
+    </div>
+    <div id="length_selection_holder" class="row">
+      <div id="npe_table_length" class="dataTables_length">
+        Show 
+        <select size="1" name="npe_table_length" ng-model="perpage" ng-change="getProfiles()">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="15">15</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+        </select>
+          entries
+      </div>
+    </div>
+  </div>
+  <div class="search-options panel">
+    <div class="top">
+      <h4><span class="blue icon">i</span>RPX NPE Intelligence</h4>
+    </div>
+    <div class="row">
+      <p>RPX has identified more than 10 NPEs that have initiated patent suits against operating
+        companies since 2005. We are now building a directory of NPE profiles that provide background information on these entities,
+        as well as lists of key personnel, contact information, descriptions of patent holdings, and an overview of litigation activities
+        to date. We will periodically update all the profiles with both publicly available information and RPX intelligence.</p>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+  <div id="wrap_footer"></div>
+</div>
+<!-- /#wrap -->
+
+<div id="footer">
+  <div class="row">
+  <div class="six ie-two columns">
+    <p class="">Copyright &copy; 2008-2013 RPX Corporation. All Rights Reserved. RPX
+      Confidential.</p>
+  </div>
+  <div class="six ie-two columns text-right">
+    <ul class="link-list">
+        <li><a href="#" class="feedback" data-reveal-id="feedback_form">Feedback</a></li>
+        <li>|</li>
+        <li><a href="/company/privacy-policy">Privacy Policy</a></li>
+        <li>|</li>
+        <li><a href="/company/terms-of-service">Terms of Service</a></li>
+        <li>|</li>
+        <span>Patents: <a href="/user/edit">Showing</a></span>
+    </ul>
+  </div>
+</div>
+
+
+</div>
+
+  <div id="feedback_form" class="reveal-modal medium" data-behavior="feedback">
+    <a class="close-reveal-modal">×</a>
+    <form accept-charset="UTF-8" action="/feedbacks" class="simple_form new_feedback" data-remote="true" id="new_feedback" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Jakd8mUQAEGOx/ojCPhAgw6TuqJf0RhHcqQBP74ZWmw=" /></div>
+      <div class="input text optional"><label class="text optional" for="feedback_content">Please use this form to provide feedback or ask any questions about the RPX Client Portal.</label><textarea class="text optional" cols="40" id="feedback_content" name="feedback[content]" rows="5">
+</textarea></div>
+      <hr>
+      <input class="small button right" data-disable-with="Sending..." name="commit" type="submit" value="Send" />
+</form>  </div>
+
+  <div id="thanks_for_feedback" class="reveal-modal medium">
+    <a class="close-reveal-modal">×</a>
+
+    <h3>Thank you for your feedback</h3>
+  </div>
+
+<div id='async_modal' class='reveal-modal xlarge'>
+  <a class="close-reveal-modal">×</a>
+  <div class="modal-content"></div>
+</div>
+</body>
+</html>
